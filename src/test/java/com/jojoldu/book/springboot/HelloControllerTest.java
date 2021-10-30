@@ -1,4 +1,4 @@
-
+package com.jojoldu.book.springboot.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +14,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
-
 public class HelloControllerTest {
 
     @Autowired
@@ -28,5 +27,5 @@ public class HelloControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().string(hello));
     }
-}
 
+}
