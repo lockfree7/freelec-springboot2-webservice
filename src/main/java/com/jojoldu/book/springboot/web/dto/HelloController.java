@@ -1,5 +1,5 @@
 
-package com.jojoldu.book.springboot.web;
+package com.jojoldu.book.springboot.web.dto;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

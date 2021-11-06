@@ -1,11 +1,10 @@
-
 buildscript {
     ext {
         springBootVersion = '2.1.7.RELEASE'
     }
     repositories {
         mavenCentral()
-        jcenter()
+
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -23,12 +22,11 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+
 }
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
-    //test
 }
-
